@@ -12,4 +12,13 @@ html {
 	font-family: sans-serif;
 }
 
+a {
+	text-decoration: none;
+	color: black;
+}
+
+[onclick], a {
+	cursor: pointer;
+}
+
 

@@ -20,9 +20,9 @@
 .site-id {
 	display: block;
 	float: left;
-	background-color: #aaa;
 	line-height: 3rem;
 	font-size: 1.5em;
+	font-weight: bold;
 }
 
 .clearfix::after {
@@ -47,4 +47,29 @@
 .copyright {
 	display: block;
 	text-align: center;
+}
+
+.jumbo {
+	display: block;
+	text-align: center;
+	font-size: 3em;
+}
+
+.main-text {
+	padding-top: 1.5em;
+	font-size: 2em;
+}
+
+.button {
+	display: inline-block;
+	padding: 0.2em 0.5em;
+	border: 1px solid black;
+	background-color: #eee;
+	border-radius: 0.3em;
+	box-shadow: 0px 0px 33px 8px #eee;
+}
+
+.button:hover {
+	background-color: #ddd;
+	box-shadow: 0px 0px 33px 8px #ddd;
 }
