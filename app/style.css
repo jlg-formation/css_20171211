@@ -21,8 +21,8 @@
 	display: block;
 	float: left;
 	background-color: #aaa;
-	line-height: 3em;
-	
+	line-height: 3rem;
+	font-size: 1.5em;
 }
 
 .clearfix::after {
@@ -34,8 +34,14 @@
 .menu {
 	display: block;
 	float: right;
-	background-color: #aaa;
 	line-height: 3em;
+}
+
+.menu-item {
+	display: inline-block;
+	margin: 0 1em;
+	padding: 0 1em;
+	background-color: #aaa;
 }
 
 .copyright {
