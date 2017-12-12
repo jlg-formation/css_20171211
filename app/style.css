@@ -1,0 +1,44 @@
+.header {
+    display: block;
+    height: 3em;
+	background-color: #eee;
+	padding: 0 1em;
+}
+
+.main {
+    display: block;
+    min-height: calc(100% - 3em - 3em);
+}
+
+.footer {
+    display: block;
+    height: 3em;
+	background-color: #eee;
+	line-height: 3em;
+}
+
+.site-id {
+	display: block;
+	float: left;
+	background-color: #aaa;
+	line-height: 3em;
+	
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.menu {
+	display: block;
+	float: right;
+	background-color: #aaa;
+	line-height: 3em;
+}
+
+.copyright {
+	display: block;
+	text-align: center;
+}
