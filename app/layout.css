@@ -1,0 +1,64 @@
+.header {
+    display: block;
+    height: 3em;
+    padding: 0 1em;
+}
+
+.main {
+    display: block;
+    min-height: calc(100% - 3em - 3em);
+}
+
+.footer {
+    display: block;
+    height: 3em;
+    line-height: 3em;
+}
+
+.site-id {
+    display: block;
+    float: left;
+    line-height: 3rem;
+    font-size: 1.5em;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.menu {
+    display: block;
+    float: right;
+    line-height: 3em;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0 1em;
+}
+
+.copyright {
+    display: block;
+    text-align: center;
+}
+
+.jumbo {
+    display: block;
+    padding-bottom: 2em;
+    text-align: center;
+    font-size: 3em;
+}
+
+.main-text {
+    padding-top: 1.5em;
+    font-size: 2em;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.2em 0.5em;
+    border: 1px solid black;
+}
