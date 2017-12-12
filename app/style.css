@@ -51,6 +51,7 @@
 
 .jumbo {
 	display: block;
+	padding-bottom: 2em;
 	text-align: center;
 	font-size: 3em;
 }
