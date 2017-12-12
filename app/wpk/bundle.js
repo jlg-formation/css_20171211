@@ -82,7 +82,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
-console.log('coucou');
+console.log('toto');
 
 
 /***/ }),
